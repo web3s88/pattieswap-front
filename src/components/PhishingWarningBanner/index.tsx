@@ -43,7 +43,7 @@ const PhishingWarningBanner: React.FC = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
-  const warningText = t("please make sure you're visiting https://pattieswap.com - check the URL carefully.")
+  const warningText = t("please make sure you're visiting https://swap.pattieswap.finance - check the URL carefully.")
   const warningTextAsParts = warningText.split(/(https:\/\/pancakeswap.finance)/g)
   const warningTextComponent = (
     <>
@@ -56,8 +56,8 @@ const PhishingWarningBanner: React.FC = () => {
           key={i}
           small
           as="span"
-          bold={text === 'https://pattieswap.com'}
-          color={text === 'https://pattieswap.com' ? '#FFFFFF' : '#BDC2C4'}
+          bold={text === 'https://swap.pattieswap.finance'}
+          color={text === 'https://swap.pattieswap.finance' ? '#FFFFFF' : '#BDC2C4'}
         >
           {text}
         </Text>

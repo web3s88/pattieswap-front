@@ -2,7 +2,7 @@
   "short_name": "PattieSwap",
   "name": "PattieSwap",
   "description": "Farm PATC with Pancake LP Tokens",
-  "homepage_url": "https://pattieswap.com",
+  "homepage_url": "https://swap.pattieswap.finance",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",
