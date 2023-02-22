@@ -31,6 +31,14 @@ export const mainnetTokens = {
     'PattéCôdé',
     'https://swap.pattieswap.finance/',
   ),
+  pattie: new Token(
+    MAINNET,
+    "0x0eE4024E8d5ae9afFCe26f692028407dD2050B7D",
+    18,
+    "PATTIE",
+    "PattieSwap",
+    'https://swap.pattieswap.finance/'
+  ),
   tlos: new Token(MAINNET, '0xb6C53431608E626AC81a9776ac3e999c5556717c', 18, 'TLOS', 'Telos', 'https://www.telos.net/'),
   beta: new Token(
     MAINNET,

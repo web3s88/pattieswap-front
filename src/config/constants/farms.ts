@@ -37,6 +37,46 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
   },
+  {
+    pid: 3,
+    lpSymbol: 'PATTIE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x3b14B6b3bd688e8E19EC1B72979e2A1DBEf05193',
+    },
+    token: serializedTokens.pattie,
+    quoteToken: serializedTokens.wbnb,
+  },
+  {
+    pid: 4,
+    lpSymbol: 'PATTIE-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x3b14B6b3bd688e8E19EC1B72979e2A1DBEf05193',
+    },
+    token: serializedTokens.pattie,
+    quoteToken: serializedTokens.busd,
+  },
+  {
+    pid: 5,
+    lpSymbol: 'PATTIE-PATC LP',
+    lpAddresses: {
+      97: '',
+      56: '0x02bF1a6A842d4563F26870a6Ed1Ed7B0216280B7',
+    },
+    token: serializedTokens.pattie,
+    quoteToken: serializedTokens.cake,
+  },
+  {
+    pid: 6,
+    lpSymbol: 'PATC-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0xFB7bA81b4b4390609390940c5554cF46Eaf057E9',
+    },
+    token: serializedTokens.pattie,
+    quoteToken: serializedTokens.busd,
+  },
   
   /**
    * V3 by order of release (some may be out of PID order due to multiplier boost)
