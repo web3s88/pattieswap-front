@@ -352,7 +352,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingDuro",
+    "name": "pendingPatc",
     "outputs": [
       {
         "internalType": "uint256",

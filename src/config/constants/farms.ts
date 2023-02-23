@@ -77,6 +77,27 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.pattie,
     quoteToken: serializedTokens.busd,
   },
+  {
+    pid: 7,
+    lpSymbol: 'PATTIE-USDT LP',
+    lpAddresses: {
+      97: '',
+      56: '0x4DBdBea94ad2fB53E13487F8144C018826cC5619',
+    },
+    token: serializedTokens.pattie,
+    quoteToken: serializedTokens.usdt,
+  },
+  
+  {
+    pid: 8,
+    lpSymbol: 'PATC-USDT LP',
+    lpAddresses: {
+      97: '',
+      56: '0x36447dF2ccfee58D44E8e2DD1cEe4460Baa03F2d',
+    },
+    token: serializedTokens.cake,
+    quoteToken: serializedTokens.usdt,
+  },
   
   /**
    * V3 by order of release (some may be out of PID order due to multiplier boost)
