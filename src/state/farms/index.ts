@@ -81,7 +81,7 @@ export const fetchFarmUserDataAsync = createAsyncThunk<FarmUserDataResponse[], {
 )
 
 export const farmsSlice = createSlice({
-  name: 'Farms',
+  name: 'PATTIE FARMS',
   initialState,
   reducers: {},
   extraReducers: (builder) => {

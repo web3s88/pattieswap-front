@@ -27,7 +27,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     icon: 'Earn',
     items: [
       {
-        label: t('Farms'),
+        label: t('PATTIE FARMS'),
         href: '/farms',
       },
       {

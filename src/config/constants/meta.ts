@@ -4,7 +4,7 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'PattieSwap',
   description:
-    'The most popular AMM on BSC by user count! Earn PATC through yield farming, then stake it in Syrup Pools to earn more tokens!',
+    'The most popular AMM on BSC by user count! Earn PATC through yield farming, then stake it in FLOUR POOLS to earn more tokens!',
   image: 'https://swap.pattieswap.finance/images/hero.png',
 }
 
@@ -69,7 +69,7 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('PattieSwap')}`,
+        title: `${t('PATTIE FARMS')} | ${t('PattieSwap')}`,
       }
     case '/farms/auction':
       return {
