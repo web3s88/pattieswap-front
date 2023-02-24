@@ -21,7 +21,7 @@ export const CurrencyLogo: React.FC<{
     
     const checksummedAddress = isAddress(address)
     if (checksummedAddress) {
-      return getTokenLogoURL(address)
+      return getTokenLogoURL(checksummedAddress)
       // return `https://assets.trustwalletapp.com/blockchains/smartchain/assets/${checksummedAddress}/logo.png`
     }
     return null
