@@ -82,7 +82,7 @@ const FarmAuction = () => {
             {t('Home')}
           </RouterLink>
           <RouterLink to="/farms" color="primary" style={{ fontWeight: 400 }}>
-            {t('PATTIE FARMS')}
+            {t('Pattie Farms')}
           </RouterLink>
           <Text>{t('Community Farm Auction')}</Text>
         </Breadcrumbs>
