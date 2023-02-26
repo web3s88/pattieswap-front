@@ -70,7 +70,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('Other FLOUR POOLS')}
+          {t('Other Flour Pools')}
         </Text>
         <Text textAlign="right">{formatNumber(poolsBalance, 0, 3)}</Text>
       </Flex>

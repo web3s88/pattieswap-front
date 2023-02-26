@@ -4,7 +4,7 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'PattieSwap',
   description:
-    'The most popular AMM on BSC by user count! Earn PATC through yield farming, then stake it in FLOUR POOLS to earn more tokens!',
+    'The most popular AMM on BSC by user count! Earn PATC through yield farming, then stake it in Flour Pools to earn more tokens!',
   image: 'https://swap.pattieswap.finance/images/hero.png',
 }
 
