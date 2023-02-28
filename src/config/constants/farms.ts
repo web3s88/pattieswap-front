@@ -52,7 +52,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'PATTIE-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x3b14B6b3bd688e8E19EC1B72979e2A1DBEf05193',
+      56: '0x05F472b6c5b908C96FF2140eF2Fe5aa646665BCb',
     },
     token: serializedTokens.pattie,
     quoteToken: serializedTokens.busd,
